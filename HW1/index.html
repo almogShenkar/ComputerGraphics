@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="painter.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="HeaderArea">
+        <h1 id="headline">Computer Graphics H.W 1</h1>
+        <button id="helpBtn" class="btn">Help</button>
+        <p id="helpPar">
+            This is assigment 1: "2D-Painter"   - course Computer Graphics - Shenkar College 
+            <br>
+                <b>Lecturer: Dr. Eyal Sheffer
+                Students: Adam Shwartz(200743052) and Almog Asulin(200377489)</b>
+        <br><br>
+            This painter util can draw Line , Circle , Curve.<br>
+            <br>
+            <b>Instructions:</b>
+            <br>
+
+            1. Draw Line: Click the Line button. Then Click 2 points over the canvas : FirstClick: FromPoint , SecondClick: ToPoint.<br>
+            2. Draw Circle: Click the Circle button. Then Click 2 points over the canvas : FirstClick: CenterPoint , SecondClick: PointOnCircumference.<br>
+            3. Draw Curve: Click the Curve button. Then set the number of caclculation.
+            Then Click 4 points over the canvas : FirstClick: FitrstPoint , SecondClick: SecondPoint , ThirdClick: ThirdPoint , FourthClick: FourthPoint<br>                    
+
+        </p>
+    </div>
+    
+    <div id="btnArea">
+        <button id="lineBtn" class="btn">Line</button>
+        <button id="circleBtn" class="btn">Circle</button>
+        <button id="curveBtn" class="btn">Curve</button>
+        <button id="clearBtn" class="btn">Clear</button>
+        <div>
+            <h4 id="paramH4">Lines: </h4>
+            <input id="param" type="number" min="1" max="100" placeholder="Curve Param 4-100" value="4" step="1">
+    </div>    
+    <canvas id="drawArea">
+    </canvas> 
+</body>
+</html>

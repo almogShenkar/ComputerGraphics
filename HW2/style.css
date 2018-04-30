@@ -1,0 +1,62 @@
+#headline{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#HeaderArea{
+    margin: auto;
+    text-align: center;
+}
+
+#drawArea{
+    border:1px solid #000000;
+    margin:auto;
+    display:block;
+    margin-top:2%;
+}
+
+#btnArea{
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.btn{
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    width: 90px;
+    background-color: #006BB7;
+}
+
+#param{
+    margin: auto;
+    margin-top: 4px;
+    display:none;
+    width: 50px;
+}
+
+
+#helpPar{
+    text-align: left;
+    border-style: solid;
+    border-width: 5px;
+    padding: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: none;
+}
+
+#helpBtn{
+    color: white;
+}
+
+#paramH4{
+    display: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:3px;
+}
